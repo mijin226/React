@@ -1,0 +1,27 @@
+* JSX (HTML + JavaScript)
+  - 자바스크립트 확장한 문법(자바스크립트 XML)
+  - HTML 형태와 유사함
+  - 그러나 단순 문자열이 아닌, JSX값임.
+  - 리액트는 JSX 값을 통해 HTML로 화면에 렌더링하여 보여줌
+    ex. const element = <h1>Hello, world!</h1>
+​
+
+* HTML과 다른 JSX 특징
+  - JSX에서 사용하는 태그 속성 이름이 HTML과 조금 다름!
+  - 태그를 명시적으로 닫아주어야 함.
+  - 하나의 태그로 감싸져 있어야 함.
+
+  HTML 용어      JSX 용어
+  class          className
+  for            htmlFor
+  onclick        onClick
+
+  <!-- HTML 작성 방식 -->
+    <button class="btn">test</button>
+    <input type="text">
+
+  <!-- JSX 작성 방식 -->
+    <div>                                        <!-- div 태그로 서로 다른 요소를 하나의 태그로 감싸기
+      <button className="btn">test</button>      <!-- class가 아닌, className 속성 활용 -->
+      <input type="text"/>                       <!-- 태그의 시작~끝을 분명히 명시하여 닫기
+    </div>
