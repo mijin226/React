@@ -10,7 +10,7 @@ const element = (
 		{/*JSX 내부 주석 방식*/}
         {/* num 배열의 각 숫자 n에 대해 map 함수 실행 */}
         {num.map(
-            (n) =>
+            (n) => 
                 // n이 2 이상이고 5가 아닌 경우에만 해당 조건 블록을 실행
                 n>=2 && n!==5 && (// 조건을 만족하는 경우 이 div 요소를 반환
                     <div className={n%2 ? 'numberColor-blue' : 'numberColor-black'}>
