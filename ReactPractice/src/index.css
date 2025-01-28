@@ -1,0 +1,10 @@
+/*숫자가 홀수면 파란색, 짝수면 검정색*/
+.numberColor-blue{
+	padding: 10;
+    color: blue;
+}
+
+.numberColor-black{
+	padding: 10;
+	color: black;
+}
