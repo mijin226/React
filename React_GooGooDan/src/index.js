@@ -1,6 +1,7 @@
 import React from 'react'; // React 라이브러리를 가져옴
 import ReactDOM from 'react-dom'; // React DOM을 사용하기 위해 가져옴
 import './index.css';
+//예제
 // 구구단 요소 배열리스트화
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
