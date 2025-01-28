@@ -1,4 +1,4 @@
-* JSX (HTML + JavaScript)  
+* JSX (HTML + JavaScript)   
   - 자바스크립트 확장한 문법(자바스크립트 XML)
   - HTML 형태와 유사함
   - 그러나 단순 문자열이 아닌, JSX값임.
