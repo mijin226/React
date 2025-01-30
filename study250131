@@ -1,0 +1,7 @@
+* 컴포넌트(Component) == 일종의 함수화, 모듈화 개념
+
+- 파스칼 표기법(Java와 형태 동일) : 시작 글자 대문자 표기
+- 의미단위로 컴포넌트화(==파일 분리)
+- 최상위 컴포넌트 == App 으로 지칭.
+=> index.js : entry component. 최종 컴포넌트를 Dom에 렌더링.(ReactDom.render();)
+=> App.js : 모든 컴포넌트의 root 최상위 컴포넌트
